@@ -10,12 +10,12 @@
   #define MY_VERSION_CPU MY_VERSION
 #endif
 
-#define MY_DATE "2023-06-20"
+#define MY_DATE "2023-08-30"
 #undef MY_COPYRIGHT
 #undef MY_VERSION_COPYRIGHT_DATE
-#define MY_AUTHOR_NAME "Igor Pavlov"
+#define MY_AUTHOR_NAME "CHUHEI -at- GITHUB -dot- COM"
 #define MY_COPYRIGHT_PD "Igor Pavlov : Public domain"
-#define MY_COPYRIGHT_CR "Copyright (c) 1999-2023 Igor Pavlov"
+#define MY_COPYRIGHT_CR "Copyright (c) 1999-2023 Igor Pavlov,"
 
 #ifdef USE_COPYRIGHT_CR
   #define MY_COPYRIGHT MY_COPYRIGHT_CR
