@@ -686,7 +686,7 @@ void AddCpuFeatures(AString &s)
     PrintHex(s, h);
     #ifdef MY_CPU_ARM64
     if (h & HWCAP_CRC32)  s += ":CRC32";
-    if (h & HWCAP_SHA1)   s += ":SHA1";
+    //if (h & HWCAP_SHA1)   s += ":SHA1";
     if (h & HWCAP_SHA2)   s += ":SHA2";
     if (h & HWCAP_AES)    s += ":AES";
     if (h & HWCAP_ASIMD)  s += ":ASIMD";
@@ -707,7 +707,7 @@ void AddCpuFeatures(AString &s)
       PrintHex(s, h);
       #ifdef MY_CPU_ARM
       if (h & HWCAP2_CRC32)  s += ":CRC32";
-      if (h & HWCAP2_SHA1)   s += ":SHA1";
+      //if (h & HWCAP2_SHA1)   s += ":SHA1";
       if (h & HWCAP2_SHA2)   s += ":SHA2";
       if (h & HWCAP2_AES)    s += ":AES";
       #endif

@@ -151,7 +151,7 @@ static LPCSTR const kMethodsNames[] =
   , "PPMd"
   // , "ZSTD"
   , "SHA256"
-  , "SHA1"
+  //, "SHA1"
   , "CRC32"
   , "CRC64"
   , "GNU"

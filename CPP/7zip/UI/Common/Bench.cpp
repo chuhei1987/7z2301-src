@@ -2702,10 +2702,10 @@ static const CBenchHash g_Hash[] =
   { 10, 5100,       0x7913ba03, "SHA256:1" },
   {  2, CMPLX((32 * 4 + 1) * 4 + 4), 0x7913ba03, "SHA256:2" },
   
-  { 10, 2340,       0xff769021, "SHA1:1" },
-  {  2, CMPLX((20 * 6 + 1) * 4 + 4), 0xff769021, "SHA1:2" },
+  //{ 10, 2340,       0xff769021, "SHA1:1" },
+  //{  2, CMPLX((20 * 6 + 1) * 4 + 4), 0xff769021, "SHA1:2" },
   
-  {  2,  5500, 0x85189d02, "BLAKE2sp" }
+  //{  2,  5500, 0x85189d02, "BLAKE2sp" }
 };
 
 static void PrintNumber(IBenchPrintCallback &f, UInt64 value, unsigned size)

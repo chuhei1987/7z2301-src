@@ -9,7 +9,6 @@ COMMON_OBJS = \
   $O\MyVector.obj \
   $O\MyXml.obj \
   $O\NewHandler.obj \
-  $O\Sha1Reg.obj \
   $O\Sha256Reg.obj \
   $O\StringConvert.obj \
   $O\StringToInt.obj \
@@ -150,10 +149,6 @@ NSIS_OBJS = \
   $O\NsisIn.obj \
   $O\NsisRegister.obj \
 
-RAR_OBJS = \
-  $O\RarHandler.obj \
-  $O\Rar5Handler.obj \
-
 TAR_OBJS = \
   $O\TarHandler.obj \
   $O\TarHandlerOut.obj \
@@ -220,12 +215,6 @@ COMPRESS_OBJS = \
   $O\PpmdRegister.obj \
   $O\PpmdZip.obj \
   $O\QuantumDecoder.obj \
-  $O\Rar1Decoder.obj \
-  $O\Rar2Decoder.obj \
-  $O\Rar3Decoder.obj \
-  $O\Rar3Vm.obj \
-  $O\Rar5Decoder.obj \
-  $O\RarCodecsRegister.obj \
   $O\ShrinkDecoder.obj \
   $O\XpressDecoder.obj \
   $O\XzDecoder.obj \
@@ -243,9 +232,6 @@ CRYPTO_OBJS = \
   $O\MyAesReg.obj \
   $O\Pbkdf2HmacSha1.obj \
   $O\RandGen.obj \
-  $O\Rar20Crypto.obj \
-  $O\Rar5Aes.obj \
-  $O\RarAes.obj \
   $O\WzAes.obj \
   $O\ZipCrypto.obj \
   $O\ZipStrong.obj \

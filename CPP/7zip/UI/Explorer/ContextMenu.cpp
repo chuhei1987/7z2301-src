@@ -276,11 +276,11 @@ static const CContextMenuCommand g_Commands[] =
   CMD_REC( kExtractTo,   "ExtractTo",   IDS_CONTEXT_EXTRACT_TO),
   CMD_REC( kTest,        "Test",        IDS_CONTEXT_TEST),
   CMD_REC( kCompress,           "Compress",           IDS_CONTEXT_COMPRESS),
-  CMD_REC( kCompressEmail,      "CompressEmail",      IDS_CONTEXT_COMPRESS_EMAIL),
+ // CMD_REC( kCompressEmail,      "CompressEmail",      IDS_CONTEXT_COMPRESS_EMAIL),
   CMD_REC( kCompressTo7z,       "CompressTo7z",       IDS_CONTEXT_COMPRESS_TO),
-  CMD_REC( kCompressTo7zEmail,  "CompressTo7zEmail",  IDS_CONTEXT_COMPRESS_TO_EMAIL),
+ // CMD_REC( kCompressTo7zEmail,  "CompressTo7zEmail",  IDS_CONTEXT_COMPRESS_TO_EMAIL),
   CMD_REC( kCompressToZip,      "CompressToZip",      IDS_CONTEXT_COMPRESS_TO),
-  CMD_REC( kCompressToZipEmail, "CompressToZipEmail", IDS_CONTEXT_COMPRESS_TO_EMAIL)
+ // CMD_REC( kCompressToZipEmail, "CompressToZipEmail", IDS_CONTEXT_COMPRESS_TO_EMAIL)
 };
 
 
@@ -295,7 +295,7 @@ static const CHashCommand g_HashCommands[] =
 {
   { CZipContextMenu::kHash_CRC32,  "CRC-32",  "CRC32" },
   { CZipContextMenu::kHash_CRC64,  "CRC-64",  "CRC64" },
-  { CZipContextMenu::kHash_SHA1,   "SHA-1",   "SHA1" },
+  //{ CZipContextMenu::kHash_SHA1,   "SHA-1",   "SHA1" },
   { CZipContextMenu::kHash_SHA256, "SHA-256", "SHA256" },
   { CZipContextMenu::kHash_All,    "*",       "*" },
   { CZipContextMenu::kHash_Generate_SHA256, "SHA-256 -> file.sha256", "SHA256" },
@@ -1332,7 +1332,7 @@ HRESULT CZipContextMenu::InvokeCommandCommon(const CCommandMapItem &cmi)
       
       case kHash_CRC32:
       case kHash_CRC64:
-      case kHash_SHA1:
+      //case kHash_SHA1:
       case kHash_SHA256:
       case kHash_All:
       case kHash_Generate_SHA256:

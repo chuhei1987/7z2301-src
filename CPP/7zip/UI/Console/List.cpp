@@ -95,7 +95,7 @@ static const char * const kPropIdToName[] =
   , "Aux"
   , "Deleted"
   , "Tree"
-  , "SHA-1"
+  //, "SHA-1"
   , "SHA-256"
   , "Error Type"
   , "Errors"
