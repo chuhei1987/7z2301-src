@@ -295,7 +295,7 @@ static const CHashCommand g_HashCommands[] =
 {
   { CZipContextMenu::kHash_CRC32,  "CRC-32",  "CRC32" },
   { CZipContextMenu::kHash_CRC64,  "CRC-64",  "CRC64" },
-  { CZipContextMenu::kHash_SHA1,   "SHA-1",   "SHA1" },
+  //{ CZipContextMenu::kHash_SHA1,   "SHA-1",   "SHA1" },
   { CZipContextMenu::kHash_SHA256, "SHA-256", "SHA256" },
   { CZipContextMenu::kHash_All,    "*",       "*" },
   { CZipContextMenu::kHash_Generate_SHA256, "SHA-256 -> file.sha256", "SHA256" },
