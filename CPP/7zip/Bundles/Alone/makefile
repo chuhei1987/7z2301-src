@@ -22,7 +22,6 @@ COMMON_OBJS = \
   $O\Wildcard.obj \
   $O\XzCrc64Init.obj \
   $O\XzCrc64Reg.obj \
-  $O\Sha1Reg.obj \
   $O\Sha256Reg.obj \
 
 WIN_OBJS = \
